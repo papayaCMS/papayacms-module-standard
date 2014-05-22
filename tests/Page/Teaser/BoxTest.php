@@ -1,10 +1,5 @@
 <?php
-include_once(dirname(__FILE__).'/../../../../../bootstrap.php');
-PapayaTestCase::registerPapayaAutoloader(
-  array(
-    'PapayaModuleStandard' => 'modules/_standard/'
-  )
-);
+require_once(dirname(__FILE__).'/../../bootstrap.php');
 
 class PapayaModuleStandardPageTeaserBoxTest extends PapayaTestCase {
 
